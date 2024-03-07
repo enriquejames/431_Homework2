@@ -1,29 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>
-            Enrique Aceves, your next Star
+        <title id="title">
+            Enrique Aceves Your Next Best
         </title>
         <link rel="icon" type="image/png" href="/_431/favicon-32x32.png">
         <link rel="shortcut icon" type="image/x-icon" href="/_431/favicon.ico">
+        
+        
         <style>
-
+            #name{
+                color: rgb(255, 255, 255);
+                font-size: 40px;
+                font-family: Arial;
+            }
             #main-header{
-                color: white;
-                font-weight: bold;
-            }
-            body {
-                background-color: rgb(48, 64, 88);
-                font-weight: bold;
-            }
-            #jd p{
-                color: black;
-                font-style: italic;
+                color: rgb(96, 136, 189);
+                font-family: Arial;
+                padding-left: 30px; 
+                padding-right: 30px;
+                
             }
 
-            #jt {
+            #role {
+            
+                font-size: 30px;
+                
+            }
+            #linkedin{
+                width: 25px;
+                height: 25px;
+                
+            }
+            .about{
                 color: white;
-                font-weight: bold;
+                text-align:justify;
+                font-family: Arial;
+                font-size: 20px;
+                letter-spacing: .75px;
+                padding-left: 45px; 
+                padding-right: 45px;
+            }
+
+            body {
+                background-color: rgb(34, 34, 34);
+                
+            }
+
+           
+
+            #experience{
+                color:rgb(96, 136, 189);
+                font-family: Arial;
+                font-size: 30px;
+                padding-left: 30px; 
+                padding-right: 30px;
+
+            }
+            
+            #j-descr {
+                color: white;
+                padding-left: 45px; 
+                padding-right: 45px;
+            }
+
+            #j-title {
+                color: white;
+                font-style: italic;
+                padding-top: 30px;
+                
             }
             #profile-img{
                 display: flex;
@@ -33,6 +78,29 @@
                 border-radius: 50%;
                 
                 }
+
+            #education{
+                color: rgb(96, 136, 189);
+                
+            }
+
+            #school{
+                color: white;
+            }
+
+            #education{
+                padding-top: 30px;
+                padding-bottom: 30px;
+                font-size: 30px;
+            }
+            #en-date{
+                color: white;
+                font-style: italic;
+            }
+            a:visited {
+                color: rgb(96, 136, 189);
+            }
+
             
         </style>
     </head>
@@ -40,14 +108,14 @@
             <header id="main-header">
                 <img src="profile.jpg" alt="profile-img" id="profile-img">
                 <h1 id="name"> 
-                    Enrique J Aceves
-
+                    Enrique J Aceves<section class="link"><a href="https://www.linkedin.com/in/enriquejaceves/" target="_blank" rel="noopener noreferrer"><img src="LinkedIn_logo_initials.png" alt="linkedin" id="linkedin"></a></section>
                 </h1>
+                
                 <h2>
-                    <h2>Senior Reporting Analyst at 
+                    <h2 id="role">Senior Reporting Analyst at 
                     <a href="https://auctane.com/" target="_blank" rel="noopener noreferrer">Auctane.com</a></h2>
                 </h2>
-                <div><span><b>About:</b> Senior Reporting Analyst at Auctane.com. I provide leadership and other departments with the necessary reports and data analytics for making sound business decisions to 
+                <div class="about"><span><b>About:</b> Senior Reporting Analyst at Auctane.com. I provide leadership and other departments with the necessary reports and data analytics for making sound business decisions to 
                     improve customer experience and achieve department goals. I also monitor and analyze customer support call center data to assist management with ensuring optimal operational efficiency and 
                     quality. Currently studying towards a Bachelor of Science in Computer Science at California State University, Fullerton, focusing on Data Science and Reporting. Additionally, with experience 
                     in fraud prevention having worked as a Fraud Prevention Analyst and Manager at Stamps.com. I have multiple certifications in motivating and engaging employees, and I have strong analytical, 
@@ -55,11 +123,11 @@
             </header>
         </div>
         <div>
-            <section>
+            <section id =content>
                 <span id="experience">Experience</span>
-                <header id="jt">Auctane.com (Formerly Stamps.com), El Segundo, CA &mdash;<br>Senior Reporting Analyst</header>
+                <header id="j-title">Auctane.com (Formerly Stamps.com), El Segundo, CA &mdash;<br>Senior Reporting Analyst</header>
                 <span id="work-date">2021 - PRESENT<br></span> 
-                <body id="jd">
+                <body id="j-descr">
                     Responsible for providing leadership, as well as other departments, with the necessary reports and data analytics for making sound business decisions to improve overall customer experience. 
                     Also responsible for providing Customer Service leadership and all contact center agents with their individual and team KPIs to assist with improving efficiency, as well as overall customer 
                     interaction quality. Additionally, CC Reporting team is responsible for analyzing call volume patterns to create staffing models and scheduling recommendations to ensure consistent SLA adherence. 
@@ -78,35 +146,33 @@
                 </body>
 
 
-                <header id="jt">Stamps.com, El Segundo, CA &mdash;<br> Fraud Prevention Manager </header>
+                <header id="j-title">Stamps.com, El Segundo, CA &mdash;<br> Fraud Prevention Manager </header>
                 <span id="work-date">January 2020 - August 2021,<br></span>
-                <body id="jd">
+                <body id="j-descr">
                     Test text
                 </body>
 
 
-                <header id="jt">Stamps.com, El Segundo, CA &mdash;<br> Team Lead, Fraud Analyst </header>
+                <header id="j-title">Stamps.com, El Segundo, CA &mdash;<br> Team Lead, Fraud Analyst </header>
                 <span id="work-date">July 2019 - Jan 2020,<br></span>
-                <body id="jd">
+                <body id="j-descr">
                     Supervision of Fraud Associates, Manage attendance, system issues, and time record reconciliation. Train and develop Fraud Prevention Analysts. Assign and enforce daily team tasks for on time 
                     completion and with accuracy. Assist Fraud Prevention Coach with operational projects. Present strategic opportunities to improve the fraud team operations including people, process and technology. 
                 </body>
 
 
-                <header id="jt">Stamps.com, El Segundo, CA &mdash;<br> Fraud Analyst </header>
+                <header id="j-title">Stamps.com, El Segundo, CA &mdash;<br> Fraud Analyst </header>
                 <span id="work-date">July2017 - July 2019,<br></span>
-                <body id="jd">
+                <body id="j-descr">
                     Evaluating accounts for fraudulent activity, identify new fraud patterns and recommend methods to address them, and preparing periodic reports. Perform account research and process requests received 
                     from the Customer Care department. Perform periodic analysis of fraud screening results. Creating fraud screening parameters for automation. Chargeback analysis and Page 2 of 3 collection. Provide 
                     New hire and team training. Primary contact for the department. Assist all departments with inquiries and fraud related requests. 
                 </body>
 
 
-                <header id="jt">Newegg.com, City of Industry, CA &mdash;<br> Fraud Analyst - Digital Investigations </header>
+                <header id="j-title">Newegg.com, City of Industry, CA &mdash;<br> Fraud Analyst - Digital Investigations </header>
                 <span id="work-date">April 2016 - January 2017,<br></span>
-                <body id="jd">
-                     
-                </body>
+                
 
             </section>
             <p>
@@ -114,7 +180,7 @@
             </p>
         </div>
        <div>
-        <span id="education">Education<br></span>
+        <header id="education">Education<br></header>
         <body>
             <header id="school">Cal State Fullerton, CA &mdash;<br> Computer Science, BS </header>
                 <span id="en-date">August 2021 - December 2024,<br></span> 
