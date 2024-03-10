@@ -16,10 +16,10 @@
                     document.body.classList.toggle("dark-mode");
                     if(document.body.classList.contains("dark-mode")){
                         switchSlider.classList.add("switch-slider-right");
-                        switchLabel.innerHTML = "Light Mode";
+                        switchLabel.innerHTML = "Dark Mode";
                     } else {
                         switchSlider.classList.remove("switch-slider-right");
-                        switchLabel.innerHTML = "Dark Mode";
+                        switchLabel.innerHTML = "Light Mode";
                     }
                 });
             });
@@ -119,6 +119,7 @@
 
             body {
                 background-color: rgb(34, 34, 34);
+                padding-left: 40px;
             }
             .dark-mode {
                 background-color:rgb(207, 207, 207)
@@ -188,10 +189,13 @@
                 
             }
             #profile-img{
-                display: flex;
-                justify-content: flex-start;
-                width: 100px;
-                height: 100px;
+                position:static;
+                float: right;
+                margin: 20px;
+                right: 20px;
+                top: 20px;
+                width: 300px;
+                height: 300px;
                 border-radius: 50%;
                 }
 
@@ -340,7 +344,7 @@
 
 
                 <div class="switch">
-                    <span class="switch-label"> Dark Mode</span>
+                    <span class="switch-label">Light Mode</span>
                     <div class="switch-slider round"></div>
                 </div>
 
